@@ -38,7 +38,8 @@ html {
 
 .menu {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .menu a {
@@ -57,7 +58,8 @@ html {
 
 .redes {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    padding: 10px;
 }
 
 .redes a {
@@ -398,6 +400,13 @@ form {
     visibility: hidden;
     opacity: 0
 }
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .89)
+}
 
 @media screen and (min-width:768px) {
     .menu a {
@@ -439,6 +448,7 @@ form {
         width: 80%;
         justify-content: space-around
     }
+    
 }
 
 @media screen and (min-width:1024px) {
@@ -623,13 +633,5 @@ form {
     }
     .sobremi-card:nth-child(3) {
         grid-column: 3/4
-    }
-
-    footer {
-        display: flex;
-        justify-content: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #fff;
-        background-color: rgba(0, 0, 0, .89)
     }
 }
